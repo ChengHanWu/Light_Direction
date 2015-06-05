@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.13.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Garfield Wu, CCT'slab, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.13.0.0
+Toolchain Path:  F:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.13.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Cheng-Han\Desktop\AutoNet_0530\Light_Direction\0088-V-U-038-A\MDK-ARM\0088-V-U-038-A.uvprojx
+Project File Date:  05/31/2015
+
+<h2>Output:</h2>
+Build target '0088-V-U-038-A'
+compiling main.c...
+..\main.c(102): warning:  #177-D: variable "light_flag" was declared but never referenced
+        uint8_t light_flag = 0;
+..\main.c: 1 warning, 0 errors
+compiling TxRx.c...
+..\TxRx.c(356): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if(data[0+RX_OFFSET] >= 0x00 && data[0+RX_OFFSET] <= 0x04)
+..\TxRx.c: 1 warning, 0 errors
+linking...
+Program Size: Code=30696 RO-data=1000 RW-data=484 ZI-data=4524  
+FromELF: creating hex file...
+".\Build\AutoNet.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Cheng-Han\Desktop\AutoNet_0530\Light_Direction\0088-V-U-038-A\MDK-ARM\RTE
+  F:\Keil\ARM\PACK\Keil\STM32F0xx_DFP\1.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
